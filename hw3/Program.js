@@ -2,25 +2,25 @@
 function createFunction(){
 	
 	var rowCount = 100;
-	var rowOutput = "1" + "</br>" + "2" + "</br>";
+	var rowOutput = "";
 	
 	for(var i=3;i<=rowCount;i++)
 	{
 		if(i%3 == 0)
 		{
-			rowOutput = rowOutput +  "Fizz" + "</br>";
+			rowOutput = rowOutput +  "Fizz";
 		}
 		else if(i%5 == 0)
 		{
-			rowOutput = rowOutput +  "Buzz" + "</br>";	
+			rowOutput = rowOutput +  "Buzz";	
 		}
 		else
 		{
-			rowOutput = rowOutput +  i + "</br>";
+			rowOutput = rowOutput +  i;
 		}
 	}
     
-	return rowOutput;
+	console.log(rowOutput);
 };
 
 var mainFunc = function()
