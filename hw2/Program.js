@@ -19,7 +19,7 @@ function createFunction(dimension){
 	var myArray2 = [dimension];
 	for(i=0; i<dimension; i++)
 		{
-			myArray[i] = recursiveFunc2(i);
+			myArray[i] = recursiveFunc(i);
 		}
 		var result1 = myArray.toString().replace(/,/g, '<br>');
 		
